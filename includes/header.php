@@ -15,7 +15,7 @@ if (!$paginaLogin) Autorizacao::exigirLogin();
 
       <title>Sistema Escolar</title>
 
-      <link rel="stylesheet" href="/escola/assets/css/style.css">
+      <link rel="stylesheet" href="<?= htmlspecialchars(Autorizacao::baseUrl(), ENT_QUOTES, 'UTF-8') ?>/assets/css/style.css">
 
 </head>
 
